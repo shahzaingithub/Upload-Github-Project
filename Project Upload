@@ -1,0 +1,18 @@
+Step 1
+Install git 
+Step 2
+Go to the folder where you want to upload the file, right-click, and open Git Bash.
+Step 3
+Write the command given below under git and remember to replace "Upload-Github-Project" with the name of your project:
+Step 4 
+Run all command form Git bash...
+echo "# Upload-Github-Project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shahzaingithub/Upload-Github-Project.git
+git push -u origin main
+git add .
+git status
+git pull
